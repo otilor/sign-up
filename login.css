@@ -1,0 +1,135 @@
+.login{
+    position: absolute;
+    width: 13.75rem;
+    height: 1.8125rem;
+    left: 49rem;
+    top: 18.1875rem;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5625rem;
+    line-height: 1.8125rem;
+    color: #000000;
+}
+.logo{
+    position: absolute;
+    width: 7rem;
+    height: 7rem;
+    left: 2.85%;
+    right: 85.21%;
+    top: 1.88%;
+    bottom: 87.18%;
+}
+img{
+    position: absolute;
+    width: 2.5rem;
+    height: 1.5625rem;
+    left: 13.75rem;
+    top: 0rem;
+}
+
+.button1{
+   top: 22.5625rem;
+  }
+  
+  .button2{
+   top:  22.5625rem;
+  }
+  
+  .button3{
+    top:  22.5625rem;
+  }
+  .border-bottom{
+    top: 28.375rem;
+  }
+  .text1{
+    top: 27.8125rem;
+  }
+  .border-bottom1{
+    top: 28.375rem;
+  }
+  .email{
+    top: 31.9375rem;
+  }
+  .input2{
+    top: 34.0625rem;
+  }
+  .password{
+    top: 39.25rem;
+  }
+  .input4{
+    top: 41.375rem;
+  }
+
+  .f-password{
+    position: absolute;
+    width: 7.5rem;
+    height: 1.125rem;
+    left: 77.5rem;
+    top: 45.875rem;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.9375rem;
+    line-height: 1.125rem;
+    color: #34B6FF;
+  }
+  a{
+    color: #34B6FF; 
+  }
+  .cbutton{
+    display: flex;
+    flex-direction: row;
+    padding: 1.25rem 16.375rem;
+    position: absolute;
+    width: 35.9375rem;
+    height: 3.9375rem;
+    left:49.0625rem;
+    top: 49.8125rem;
+    background: #037CFE;
+  } 
+
+  .log{
+    position: static;
+    width: 3.1875rem;
+    height: 1.4375rem;
+    left: 16.375rem;
+    top: 1.25rem;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.25rem;
+    line-height: 0px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin: 0.625rem 0rem;
+  }
+  .account{
+    position: absolute;
+    width: 14.8125rem;
+    height: 1.125rem;
+    left: 49rem;
+    top: 55.125rem;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size:0.9375rem;
+    line-height: 1.125rem;
+    color: #000000;
+  }
+
+  .copy{
+    position: absolute;
+    width: 31.5625rem;
+    height: 1.125rem;
+    left: 49rem;
+    top: 70.125rem;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size:0.9375rem;
+    line-height: 1.125rem;
+    color: #000000;
+  }

@@ -1,0 +1,431 @@
+#table {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  div {
+    float: left;
+    height: 29.375rem;
+    width: 23%;
+    padding: 0 0.625rem;
+  }
+  
+  .column1 {
+    position: absolute;
+    width: 43.625rem;
+    height: 73.125rem;
+    background: #037CFE;
+  }
+  .logo{
+    position: absolute;
+    width: 7rem;
+    height: 7rem;
+    left: 2.85%;
+    right: 85.21%;
+    top: 1.88%;
+    bottom: 87.18%;
+}
+
+span{
+    text-transform: capitalize;
+    position: absolute;
+    left: 5rem;
+    top: 13.625rem;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 3.125rem;
+    line-height: 3.69rem;
+    color: #FFFFFF;
+  }
+  p{
+    position: absolute;
+    width: 31.217rem;
+    height: 5.96rem;
+    left: 5rem;
+    top: 18.25rem;
+    font-family: Roboto, sans-serif;
+    font-size: 1.2614rem;
+    line-height: 1.5rem;
+    color: #FFFFFF;
+  }
+  .slider-button{
+    display: flex;
+    flex-direction: row;
+    padding: 1.5rem 4.375rem;
+    position: absolute;
+    width: 18.75rem;
+    height: 5.1875rem ;
+    left: 5rem;
+    top: 27.4375rem;
+    background: #FE8503;
+    color: #fff;
+    font-size: 1.875rem;
+    font-family: Roboto, sans-serif;
+    border: none;
+  }
+
+  .dot-container {
+    text-align: center;
+    padding: 1.25rem;
+    left: 5rem;
+    top: 37.4375rem;
+  }
+
+  .dot{
+    cursor: pointer;
+    position: absolute;
+    width: 1.3125rem;
+    height: 1.3125rem;
+    left: 5rem;
+    top: 36.5rem;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .dot2 {
+    cursor: pointer;
+    position: absolute;
+    width: 1.3125rem;
+    height: 1.3125rem;
+    left: 7.75rem;
+    top: 36.5rem;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .dot3 {
+    cursor: pointer;
+    position: absolute;
+    width: 1.3125rem;
+    height: 1.3125rem;
+    left: 10.5rem;
+    top: 36.5rem;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+
+  .active, .dot:hover, .dot2:hover, .dot3:hover {
+    background-color: #FE8503;
+  }
+  .column2 {
+    background-color: #E5E5E5;
+    width: 35%;
+  }
+  .sign-up{
+    position: absolute;
+    width: 13.125rem;
+    height: 1.8125rem;
+    left: 49rem;
+    top: 9.125rem;
+    font-family: Roboto, sans-serif;
+    font-weight: bolder;
+    font-size: 1.5625rem;
+    line-height: 1.8125rem;
+    color: #000000;
+  }
+
+  .button1{
+    position: absolute;
+    width: 10.8125rem;
+    height: 2.8125rem;
+    left: 49rem;
+    top: 12.9375rem;
+    background: #1977F3;
+    float: right;
+    border: none;
+  }
+  .fa-facebook-f{
+    position: absolute;
+    left: 39.93%;
+    right: 39.03%;
+    top: 18.46%;
+    bottom: 79.15%;
+    color: #fff;
+    text-align: center;
+    font-size: 1.875rem;
+  }
+  .button2{
+   position: absolute;
+   width: 10.8125rem;
+   height: 2.8125rem;
+   left: 61.625rem;
+   top: 12.9375rem;
+   background: #55ACEE;
+  border: none;
+  }
+  .fa-twitter{
+    position: absolute;
+    left: 24.24%;
+    right: 24.37%;
+    top: 18.46%;
+    bottom: 79.13%;
+    color: #FFFFFF;
+    font-size: 1.875rem;
+  }
+  .button3{
+    position: absolute;
+    width: 10.8125rem;
+    height: 2.8125rem;
+    left: 74.25rem;
+    top: 12.9375rem;
+    background: #EA4335;
+    border: none;
+  }
+  .fa-google{
+    position: absolute;
+    left: 11.64%;
+    right: 11.96%;
+    top: 19.09%;
+    bottom: 79.9%;
+    color: #FFFFFF;
+    font-size: 1.875rem;
+  }
+
+  .border-bottom{
+    position: absolute;
+    width: 10.75rem;
+    height: 0rem;
+    left: 49.06rem;
+    top: 18.75rem;
+    border: 0.0625rem solid #000000;
+  }
+  .text1{
+    position: absolute;
+    width: 1.3125rem;
+    height: 1.4375rem;
+    left: 60.625rem;
+    top: 17.9375rem;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size:1.25rem;
+    line-height: 1.4375rem;
+    color: #000000;
+  }
+  .border-bottom1{
+    position: absolute;
+    width:11.375rem;
+    height: 0rem;
+    left:62.6875rem;
+    top: 18.75rem;
+    border: 0.0625rem solid #000000;
+  }
+  .fname{
+    position: absolute;
+    width: 6.1875rem;
+    height: 1.4375rem;
+    left: 49rem;
+    top: 21rem;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size:1.25rem;
+    line-height: 1.4375rem;
+    color: #000000;
+   }
+   .lname{
+    position: absolute;
+    width: 97px;
+    height: 1.4375rem;
+    left: 68.4375rem;
+    top: 21rem;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size:1.25rem;
+    line-height: 1.4375rem;
+    color: #000000; 
+   }
+
+   .email{
+    position: absolute;
+    width: 8.0625rem;
+    height: 1.4375rem;
+    left: 49rem;
+    top:27.5rem;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size:1.25rem;
+    line-height: 1.4375rem;
+    color: #000000; 
+   }
+   .contact{
+    position: absolute;
+    width: 8.5625rem;
+    height: 1.4375rem;
+    left: 49rem;
+    top: 34rem;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size:1.25rem;
+    line-height: 1.4375rem;
+    color: #000000;
+    }
+    .password{
+      position: absolute;
+      width:5.5625rem;
+      height: 1.8231rem;
+      left: 49rem;
+      top: 40.5rem;
+      font-family: Roboto, sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size:1.25rem;
+      line-height: 1.4375rem;
+      color: #000000;
+    }
+    .cpassword{
+      position: absolute;
+      width:10.375rem;
+      height: 1.4375rem;
+      left: 49rem;
+      top: 47rem;
+      font-family: Roboto, sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size:1.25rem;
+      line-height: 1.4375rem;
+      color: #000000;
+    }
+   .input{
+    position: absolute;
+    width: 16.5625rem;
+    height: 3rem;
+    left: 49rem;
+    top: 23.125rem;
+    border: 0.0625rem solid #000000;
+    box-sizing: border-box;
+    font-size:1.5625rem;
+   }
+
+   .input1{
+    position: absolute;
+    width: 16.5625rem;
+    height: 3rem;
+    left: 68.4375rem;
+    top: 23.125rem;
+    border: 0.0625rem solid #000000;
+    box-sizing: border-box;
+    font-size:1.5625rem;
+   }
+
+   .input2{
+    position: absolute;
+    width: 36rem;
+    height: 3rem;
+    left: 49rem;
+    top: 29.625rem;
+    font-size:1.5625rem;
+    border: 0.0625rem solid #000000;
+    box-sizing: border-box;
+   }
+   .input3{
+    position: absolute;
+    width: 36rem;
+    height: 3rem;
+    left: 49rem;
+    top: 36.125rem;
+    border: 0.0625rem solid #000000;
+    box-sizing: border-box;
+    font-size:1.5625rem;
+   }
+   .input4{
+    position: absolute;
+    width: 36rem;
+    height: 3rem;
+    left: 49rem;
+    top: 42.625rem;
+    border: 0.0625rem solid #000000;
+    box-sizing: border-box;
+    font-size:1.5625rem;
+   }
+   .input5{
+    position: absolute;
+    width: 36rem;
+    height: 3rem;
+    left: 49rem;
+    top: 49.125rem;
+    border: 0.0625rem solid #000000;
+    box-sizing: border-box;
+    font-size:1.5625rem;
+   }
+
+   .terms{
+    position: absolute;
+    width: 35rem;
+    height: 36px;
+    left: 49rem;
+    top: 53.5rem;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.9375rem;
+    line-height: 1.125rem;
+    color: #000000; 
+   }
+   a{
+     text-decoration: none;
+     color: #34B6FF;
+   }
+   .cbutton{
+    display: flex;
+    flex-direction: row;
+    padding:1.25rem 14.0625rem;
+    position: relative;
+    width: 36rem;
+    height: 3.9375rem;
+    background: #037CFE;
+    left:47.9375rem;
+    top: 58.375rem;
+    border: none;
+   }
+   .create{
+    position: static;
+    width: 9.375rem;
+    height: 1.4375rem;
+    left: 14.0625rem;
+    top:1.25rem;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size:1.25rem;
+    line-height: 0rem;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin: 0.625rem 0rem;
+    border: none;
+   }
+
+   .login{
+    position: absolute;
+    width: 11.25rem;
+    height: 1.125rem;
+    left: 49rem;
+    top: 63.25rem;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.9375rem;
+    line-height: 1.125rem;
+    color: #000000;
+   }
+
+   .copyright{
+    position: absolute;
+    width: 20.3125rem;
+    height: 1.125rem;
+    left: 49rem;
+    top: 69.5rem;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.9375rem;
+    line-height: 1.125rem;
+    color: #000000;
+   }
